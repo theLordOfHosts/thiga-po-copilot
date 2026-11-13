@@ -1,0 +1,108 @@
+{
+  "existing_features": [
+    {
+      "title": "Export PDF / CSV des vues Gantt et Roadmaps",
+      "problem_statement": "Les chefs de projet et directeurs doivent capturer des écrans manuellement pour leurs comités de pilotage faute d'export propre.",
+      "reach": 4,
+      "impact": 2.0,
+      "confidence": 0.8,
+      "effort": 2.0,
+      "moscow": "Should Have",
+      "rationale": "Forte demande des comptes Enterprise pour les COPIL hebdomadaires."
+    },
+    {
+      "title": "Permissions granulaires et Rôle Invité Externe (RBAC)",
+      "problem_statement": "Les clients agences et grands comptes ne peuvent pas partager un projet avec un client final sans exposer les budgets internes.",
+      "reach": 6,
+      "impact": 3.0,
+      "confidence": 1.0,
+      "effort": 3.0,
+      "moscow": "Must Have",
+      "rationale": "Bloquant commercial sur les deals Enterprise et risque de churn identifié."
+    },
+    {
+      "title": "Actions groupées (Bulk Edit) sur le backlog",
+      "problem_statement": "Modifier le sprint, le responsable ou la priorité de 20 tickets oblige à ouvrir chaque carte individuellement.",
+      "reach": 5,
+      "impact": 1.0,
+      "confidence": 1.0,
+      "effort": 1.5,
+      "moscow": "Should Have",
+      "rationale": "Friction UX quotidienne remontée par les Product Owners et Scrum Masters."
+    }
+  ],
+  "feedbacks": [
+    {
+      "channel": "Email CSM",
+      "customer_name": "BNP Paribas (Deal en cours)",
+      "segment": "Enterprise",
+      "raw_text": "Bonjour, notre RSSI bloque la signature du contrat annuel (45k EUR). Tant qu'on ne peut pas restreindre la vue des prestataires externes avec un vrai rôle Invité qui masque les colonnes de coûts, on ne peut pas déployer FlowPulse."
+    },
+    {
+      "channel": "Zendesk Ticket #4812",
+      "customer_name": "Agence WNP",
+      "segment": "Scale-up",
+      "raw_text": "On travaille avec 15 clients externes. Si je les invite sur un board, ils voient nos commentaires internes et le temps passé facturable. Il nous faut absolument un rôle Guest cloisonné."
+    },
+    {
+      "channel": "Commentaire In-App",
+      "customer_name": "TechLead @ PayFit",
+      "segment": "Scale-up",
+      "raw_text": "Franchement pénible en fin de sprint : j'ai 18 tâches non terminées à basculer sur le Sprint 14, je dois cliquer 18 fois. Ajoutez une sélection multiple avec raccourci clavier !"
+    },
+    {
+      "channel": "Zendesk Ticket #4820",
+      "customer_name": "TotalEnergies Digital",
+      "segment": "Enterprise",
+      "raw_text": "Chaque vendredi je perds 45 minutes à faire des captures d'écran du diagramme de Gantt pour les coller dans PowerPoint pour le CODIR. Un bouton Export PDF propre en A3 changerait la vie."
+    },
+    {
+      "channel": "Email Support",
+      "customer_name": "Compta @ StudioK",
+      "segment": "SMB",
+      "raw_text": "Bonjour, pouvez-vous me renvoyer la facture du mois de septembre avec notre nouveau numéro de TVA intracommunautaire ? Merci d'avance."
+    },
+    {
+      "channel": "Slack Community",
+      "customer_name": "PO @ Spendesk",
+      "segment": "Scale-up",
+      "raw_text": "Quand on réassigne 12 tickets d'un dev qui part en congés, l'interface rame et il faut le faire ticket par ticket. Le bulk edit est vital."
+    },
+    {
+      "channel": "Email CSM",
+      "customer_name": "Carrefour Supply",
+      "segment": "Enterprise",
+      "raw_text": "Nos équipes terrain dans les entrepôts perdent la connexion Wi-Fi. L'application mobile affiche un écran blanc et perd les commentaires saisis. Il faudrait un mode brouillon hors-ligne."
+    },
+    {
+      "channel": "Zendesk Ticket #4855",
+      "customer_name": "BTP Chantiers Ouest",
+      "segment": "SMB",
+      "raw_text": "Sur chantier en sous-sol, impossible de valider une tâche sur mobile sans 4G. Si l'app gardait les actions en cache local avant de synchroniser, ce serait top."
+    },
+    {
+      "channel": "Commentaire NPS (Score 6/10)",
+      "customer_name": "PMO @ Capgemini",
+      "segment": "Enterprise",
+      "raw_text": "Très bon outil au quotidien, mais l'export CSV des sous-tâches tronque les dates d'échéance et on n'a aucun export PDF présentable pour nos clients."
+    },
+    {
+      "channel": "Email Support",
+      "customer_name": "Lucas M.",
+      "segment": "SMB",
+      "raw_text": "J'ai oublié mon mot de passe et je ne reçois pas le mail de réinitialisation sur mon adresse gmail, pouvez-vous débloquer mon compte ?"
+    },
+    {
+      "channel": "Slack Community",
+      "customer_name": "CTO @ FinFrog",
+      "segment": "Scale-up",
+      "raw_text": "On utilise GitHub Actions et GitLab. Aujourd'hui on doit changer le statut des cartes FlowPulse à la main quand une Pull Request est mergée. Un webhook natif GitHub/GitLab ferait gagner un temps fou."
+    },
+    {
+      "channel": "Commentaire In-App",
+      "customer_name": "Lead Dev @ Alma",
+      "segment": "Scale-up",
+      "raw_text": "Pourquoi il n'y a toujours pas d'intégration directe avec GitHub pour lier une branche ou une PR à une tâche et la passer en Done automatiquement au merge ?"
+    }
+  ]
+}

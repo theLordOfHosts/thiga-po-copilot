@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+key.txt
+telegram_keys.py
+*.db
+*.db-shm
+*.db-wal
+*.log
